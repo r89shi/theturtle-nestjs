@@ -44,6 +44,7 @@ export class Mkdir implements IClass {
 
   async lsFolder(props: IFolder): Promise<string[]> {
     // Local
+    //@ts-ignore
     if (AMBIENT === 'dev') {
       const dir = !props.dirs
         ? path.join(this.processDir, props.folderName)
@@ -79,6 +80,7 @@ export class Mkdir implements IClass {
 
   async readFile(props: IFile): Promise<string> {
     // Local
+    //@ts-ignore
     if (AMBIENT === 'dev') {
       const dir = !props.dirs
         ? path.join(this.processDir, props.fileName)
