@@ -15,7 +15,7 @@ async function init() {
 
 async function createMainFolder(name: string) {
   const folderName = spinalCase(name);
-  const dirs = ['structures'];
+  const dirs = [''];
 
   if (await checkIfFolderExist(folderName, dirs)) {
     console.log('Folder already exists');

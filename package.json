@@ -1,6 +1,6 @@
 {
   "name": "theturtle-nestjs",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "This is a simple way to create Nestjs folders and optimize repetitive tasks",
   "main": "index.js",
   "engines": {
