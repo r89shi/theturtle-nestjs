@@ -1,0 +1,43 @@
+{
+  "name": "@theturtle-nestjs",
+  "version": "0.0.1",
+  "description": "This is a simple way to create Nestjs folders and optimize repetitive tasks",
+  "main": "index.js",
+  "engines": {
+    "node": "22.1.0"
+  },
+  "bin": {
+    "folder": "dist/bin/index.js"
+  },
+  "scripts": {
+    "start": "node dist/bin/index.js",
+    "watch": "tsx watch src/bin/index.ts",
+    "dev": "tsx src/bin/index.ts",
+    "build": "tsup src && xcopy .\\database .\\dist\\database /i",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.5.0",
+    "@types/prompts": "^2.4.9",
+    "tsup": "^8.2.4",
+    "tsx": "^4.18.0"
+  },
+  "dependencies": {
+    "prompts": "^2.4.2",
+    "typescript": "^5.5.4"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r89shi/theturtle-nestjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/r89shi/theturtle-nestjs/issues"
+  },
+  "homepage": "https://github.com/r89shi/theturtle-nestjs#readme"
+}
