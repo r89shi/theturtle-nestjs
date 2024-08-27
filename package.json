@@ -1,5 +1,5 @@
 {
-  "name": "@theturtle-nestjs",
+  "name": "@theturtle/nestjs",
   "version": "0.0.1",
   "description": "This is a simple way to create Nestjs folders and optimize repetitive tasks",
   "main": "index.js",
