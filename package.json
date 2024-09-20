@@ -1,10 +1,10 @@
 {
-  "name": "theturtle-nestjs",
-  "version": "0.0.3",
+  "name": "@theturtle-nestjs",
+  "version": "0.0.4",
   "description": "This is a simple way to create Nestjs folders and optimize repetitive tasks",
   "main": "index.js",
   "engines": {
-    "node": "22.1.0"
+    "node": "22.9.0"
   },
   "bin": {
     "folder": "dist/bin/index.js"
